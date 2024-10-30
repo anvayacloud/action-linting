@@ -52,7 +52,7 @@ For Example:
 ```
 
 ## Contributing
-We would love you to contribute to `@cfy9/action-linting`, pull requests are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+We would love you to contribute to `@anvayacloud/action-linting`, pull requests are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
 ## License
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
