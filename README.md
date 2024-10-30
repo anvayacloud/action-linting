@@ -1,4 +1,4 @@
-![Maintainer](https://img.shields.io/badge/Maintained%20By-cloudfy9-brightgreen) [![ActionLint GitHub Action Workflow](https://github.com/cfy9/action-linting/actions/workflows/main.yaml/badge.svg)](https://github.com/cfy9/action-linting/actions/workflows/main.yaml) 
+![Maintainer](https://img.shields.io/badge/Maintained%20By-Anvaya%20Cloud-brightgreen) [![ActionLint GitHub Action Workflow](https://github.com/anvayacloud/action-linting/actions/workflows/main.yaml/badge.svg)](https://github.com/anvayacloud/action-linting/actions/workflows/main.yaml) 
 
 # Introduction
 
@@ -20,7 +20,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Run Action Linting
-      uses: cfy9/action-linting@main
+      uses: anvayacloud/action-linting@main
 ```
 
 ## Action Linting Options
@@ -32,7 +32,7 @@ For Example:
 ```yaml
     ...
     - name: Run Action Linting
-      uses: cfy9/action-linting@v0.0.1
+      uses: anvayacloud/action-linting@v0.0.1
       with:
         arguments: "-color"
 ```
@@ -45,7 +45,7 @@ For Example:
 ```yaml
     ...
     - name: Run Action Linting
-      uses: cfy9/action-linting@v0.0.1
+      uses: anvayacloud/action-linting@v0.0.1
       with:
         files: main.yaml
         arguments: "-color -ignore 'SC2016:'"
